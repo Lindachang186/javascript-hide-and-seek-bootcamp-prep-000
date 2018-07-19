@@ -17,6 +17,6 @@ function deepestChild() {
   const a = document.getElementsById('grand-node')[0]
   const b = grand-node.children[i]
   for(let i = 0; i < a.length; i++) {
-    grand-node[i].innerHTML = div.getElementsByTagName('div')[i]
+    let grand-node[i].innerHTML = div.getElementsByTagName('div')[i]
   }
 }
