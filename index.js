@@ -13,4 +13,17 @@ function increaseRankBy(n){
  }
 }
 
-function deepestChild()
+function deepestChild() {
+  let find = document.getElementById('grand-node');
+  let deep = document.getElementById('grand-node').children
+  while(deep) {
+    if(find(deep) {
+      return find
+    } if (Array.isArray(deep)) {
+      for(let i = 0; i < current.length; i++) {
+        return deep[i].innerHTML
+      }
+    }
+
+  }
+}
